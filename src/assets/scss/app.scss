@@ -2,11 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
+// Foundation
 @import 'settings';
 @import 'foundation';
-
 @include foundation-global-styles;
 @include foundation-xy-grid-classes;
 @include foundation-typography;
 
+// Other libraries
+@import 'lib/fullpage';
+
+// Local styles
 @import 'partials/hero';

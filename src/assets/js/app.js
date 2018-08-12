@@ -1,10 +1,18 @@
-import $ from 'jquery';
-window.$ = $;
-
-import './lib/foundation';
-
-$(document).foundation();
+// const $ = window.$;
+// import './lib/foundation';
+// $(document).foundation();
 
 $(document).ready(() => {
-  // TODO
+  $('main').fullpage({
+    navigation: true,
+    navigationPosition: 'right',
+    navigationTooltips: [
+      'Home',
+      'About',
+      'Experience',
+      'Education',
+      'Skills',
+    ],
+    sectionSelector: 'section',
+  });
 });
