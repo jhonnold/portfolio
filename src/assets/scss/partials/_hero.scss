@@ -22,19 +22,34 @@
     width: 100%;
     background: rgba($primary-color, 0.95);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   &__header {
+    font-family: $font-family-monospace;
+    font-weight: 600; 
+    margin: 2rem 0;
+
     &::before {
-      content: 'Jay ';
+      content: 'Hello, ';
       color: $secondary-color;
     }
 
     &::after {
-      content: 'Honnold';
+      content: 'World!';
       color: $white;
+    }
+  }
+
+  &__code {
+    color: $white;
+    white-space: pre-line;
+
+    strong {
+      color: $secondary-color;
+      font-weight: 600;
     }
   }
 }
