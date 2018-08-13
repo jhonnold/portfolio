@@ -1,0 +1,24 @@
+<section class="education">
+  <div class="education__container">
+    {{#each education}}
+    <article class="school">
+      <div class="school__top">
+        <div>
+          <h5>
+            {{this.school}}
+          </h5>
+          <h5 class="school__location">
+            {{this.location}}
+          </h5>
+        </div>
+        <span class="school__dates">
+          {{this.start}} - {{this.end}}
+        </span>
+      </div>
+      <p>
+        {{this.details}}
+      </p>
+    </article>
+    {{/each}}
+  </div>
+</section>
