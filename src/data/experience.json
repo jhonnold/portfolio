@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Full-Stack Developer",
+    "company": "Coder Inc.",
+    "start": "June 2017",
+    "end": "Present",
+    "details": "Three year old startup that assists entrepreneurs in achieving their goals through assistance in product development and business strategy. Developed the android application for Victor, a mobile tool for veterans. Used react-native and redux for the application, and ruby on rails for the backend. In addition, developed internal product platform that allows non-technical users to interface with developers in a more efficient manner. Used react and redux for the web application, and ruby on rails for the backend."
+  },
+  {
+    "title": "Full-Stack Developer",
+    "company": "Coder Inc.",
+    "start": "June 2017",
+    "end": "Present",
+    "details": "Three year old startup that assists entrepreneurs in achieving their goals through assistance in product development and business strategy. Developed the android application for Victor, a mobile tool for veterans. Used react-native and redux for the application, and ruby on rails for the backend. In addition, developed internal product platform that allows non-technical users to interface with developers in a more efficient manner. Used react and redux for the web application, and ruby on rails for the backend."
+  },
+  {
+    "title": "Full-Stack Developer",
+    "company": "Coder Inc.",
+    "start": "June 2017",
+    "end": "Present",
+    "details": "Three year old startup that assists entrepreneurs in achieving their goals through assistance in product development and business strategy. Developed the android application for Victor, a mobile tool for veterans. Used react-native and redux for the application, and ruby on rails for the backend. In addition, developed internal product platform that allows non-technical users to interface with developers in a more efficient manner. Used react and redux for the web application, and ruby on rails for the backend."
+  }
+]

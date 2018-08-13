@@ -16,3 +16,10 @@
 // Local styles
 @import 'partials/hero';
 @import 'partials/about';
+@import 'partials/experience';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
