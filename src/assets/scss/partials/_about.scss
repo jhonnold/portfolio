@@ -1,0 +1,41 @@
+.about {
+  text-align: center;
+
+  &__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__headshot {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 0.5rem;
+    filter: grayscale(100%);
+  }
+
+  &__header {
+    margin: 2rem 0;
+  }
+
+  &__text {
+    margin: 0 1rem;
+  }
+
+  &__icons {
+    display: flex;
+    margin: 2rem 0;
+
+    a {
+      margin: 0 1rem;
+      font-size: 2rem;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
