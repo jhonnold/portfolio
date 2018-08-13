@@ -14,5 +14,6 @@ $(document).ready(() => {
       'Skills',
     ],
     sectionSelector: 'section',
+    scrollOverflow: true,
   });
 });

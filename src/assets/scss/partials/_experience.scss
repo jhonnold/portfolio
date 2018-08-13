@@ -11,27 +11,38 @@
     align-items: center;
     padding: 2rem;
     color: $white;
+
+    @include breakpoint(small only) {
+      padding: 1rem;
+    }
   }
 }
 
 .job {
   margin: 2rem 0;
+  
+  h5 {
+    margin: 0;
+  }
 
   &__top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
 
     > div {
       display: flex;
+      flex-wrap: wrap;
     }
   }
 
   &__title {
-    margin-right: 1rem;
+    margin-right: 1rem !important;
     color: $secondary-color;
   }
 
   &__dates {
     color: $secondary-color;
+    text-align: right;
   }
 }

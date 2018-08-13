@@ -3,12 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600');
 
+@import 'lib/reset';
+
 // Foundation
 @import 'settings';
 @import 'foundation';
 @include foundation-global-styles;
 @include foundation-xy-grid-classes;
 @include foundation-typography;
+@include foundation-visibility-classes;
 
 // Other libraries
 @import 'lib/fullpage';
