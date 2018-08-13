@@ -1,0 +1,48 @@
+.skills {
+  background-color: $primary-color;
+  color: $white;
+
+  h5 {
+    color: $secondary-color;
+    margin-bottom: 1rem;
+  }
+
+  &__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__languages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    i { 
+      font-size: 2rem;
+      margin: 0 1rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+      margin: 0 1rem;
+    }
+  }
+
+  &__other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    span {
+      margin: 0 1rem 1rem 1rem;
+    }
+  }
+}

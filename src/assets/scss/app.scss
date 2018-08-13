@@ -21,9 +21,14 @@
 @import 'partials/about';
 @import 'partials/experience';
 @import 'partials/education';
+@import 'partials/skills';
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+section {
+  min-height: 100vh;
 }
