@@ -7,17 +7,24 @@
     "details": "Three year old startup that assists entrepreneurs in achieving their goals through assistance in product development and business strategy. Developed the android application for Victor, a mobile tool for veterans. Used react-native and redux for the application, and ruby on rails for the backend. In addition, developed internal product platform that allows non-technical users to interface with developers in a more efficient manner. Used react and redux for the web application, and ruby on rails for the backend."
   },
   {
-    "title": "Full-Stack Developer",
-    "company": "Coder Inc.",
-    "start": "June 2017",
-    "end": "Present",
-    "details": "Three year old startup that assists entrepreneurs in achieving their goals through assistance in product development and business strategy. Developed the android application for Victor, a mobile tool for veterans. Used react-native and redux for the application, and ruby on rails for the backend. In addition, developed internal product platform that allows non-technical users to interface with developers in a more efficient manner. Used react and redux for the web application, and ruby on rails for the backend."
+    "title": "Software Consultant",
+    "company": "Burtch Works",
+    "start": "May 2017",
+    "end": "June 2017",
+    "details": "Assisted with the migration to a new applicant tracking system. Evaluated 15 different ATS’ for ease- of-use, functionality, flexibility, service record, and back-end design."
   },
   {
-    "title": "Full-Stack Developer",
-    "company": "Coder Inc.",
-    "start": "June 2017",
-    "end": "Present",
-    "details": "Three year old startup that assists entrepreneurs in achieving their goals through assistance in product development and business strategy. Developed the android application for Victor, a mobile tool for veterans. Used react-native and redux for the application, and ruby on rails for the backend. In addition, developed internal product platform that allows non-technical users to interface with developers in a more efficient manner. Used react and redux for the web application, and ruby on rails for the backend."
+    "title": "Procurement Intern",
+    "company": "Michigan Tech",
+    "start": "February 2017",
+    "end": "May 2017",
+    "details": "Responsible for auditing all University departments to update inventory of computer equipment. Served as a technology resource for each department."
+  },
+  {
+    "title": "Web Developer",
+    "company": "Flash Dealer LLC",
+    "start": "June 2013",
+    "end": "August 2013",
+    "details": "Developed new website for firm selling branded flash drives. Modified firm’s CRM system to work with the new website and automatically generate sales reports. Built with HTML, CSS, and vanilla javascript."
   }
 ]
