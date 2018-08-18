@@ -7,26 +7,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ pageTitle }}</title>
   <style>
-    html, body, section, main {
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    @-webkit-keyframes fades {
+      0%,
+      100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    }
+
+    #loader {
       width: 100vw;
-      min-height: 100vh;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #011c27;
+    }
+
+    #loader span {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: 0 0.25rem;
+      background: #ffac00;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      animation: 1.5s fades infinite;
+      -webkit-animation: 1.5s fades infinite;
+      -moz-animation: 1.5s fades infinite;
+      -o-animation: 1.5s fades infinite;
+    }
+
+    #loader span:nth-child(2) {
+      animation-delay: 0.2s;
+      -webkit-animation-delay: 0.2s;
+    }
+
+    #loader span:nth-child(3) {
+      animation-delay: 0.2s;
+      -webkit-animation-delay: 0.4s;
     }
   </style>
-  <link rel="stylesheet" href="{{root}}assets/css/app.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6"
-    crossorigin="anonymous">
 </head>
 
 <body>
+  <div id="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <main>
     {{> body}}
   </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <noscript id="deferred-styles">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6"
+      crossorigin="anonymous">
+  </noscript>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
   <script src="{{root}}assets/js/app.js"></script>
+  <div id="styles-mount"></div>
 </body>
 
 </html>
