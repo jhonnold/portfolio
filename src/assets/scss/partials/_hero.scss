@@ -1,20 +1,10 @@
 .hero {
-  position: relative;
-
-  &__image {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    background-image: url(https://s3.us-east-2.amazonaws.com/honnold-assets/hero_bg.jpg);
-    background-position: center center;
-    background-size: cover;
-  }
+  background-image: url(https://s3.us-east-2.amazonaws.com/honnold-assets/hero_bg.jpg);
+  background-position: center center;
+  background-size: cover;
 
   &__container {
-    position: relative;
+    min-height: 100vh;
     height: 100%;
     width: 100%;
     background: rgba($primary-color, 0.95);
