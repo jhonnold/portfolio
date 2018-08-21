@@ -9,9 +9,9 @@ $(document).ready(() => {
     navigationTooltips: ['Home', 'About', 'Experience', 'Education', 'Skills'],
     sectionSelector: 'section',
     scrollOverflow: true,
+    scrollOverflowReset: true,
   });
 
   $('#styles-mount').html($('#deferred-styles').text());
   $('#deferred-styles').remove();
-  setTimeout(() => $('#loader').remove(), 1000);
 });
