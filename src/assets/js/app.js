@@ -14,4 +14,8 @@ $(document).ready(() => {
 
   $('#styles-mount').html($('#deferred-styles').text());
   $('#deferred-styles').remove();
+
+  $('.hero__cta').click(() => {
+    $.fn.fullpage.moveSectionDown();
+  });
 });
