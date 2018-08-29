@@ -10,6 +10,7 @@
   "author": "Jay Honnold <jayhonnold@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dayjs": "^1.7.5",
     "foundation-sites": "~6.4.1"
   },
   "devDependencies": {
