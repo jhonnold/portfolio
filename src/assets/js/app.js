@@ -7,8 +7,6 @@ const $ = window.$;
 const getAge = () => dayjs().diff(dayjs('1995-8-30'), 'years');
 
 $(document).ready(() => {
-  $('svg').each(function () { console.log(this.scrollHeight) });
-
   $('#hero-code').html(`const <strong>Jay</strong> = {
     &nbsp;&nbsp;age: ${getAge()}
     &nbsp;&nbsp;developer: true,
