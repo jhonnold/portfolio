@@ -58,6 +58,7 @@ function pages() {
       helpers: 'src/helpers/'
     }))
     .pipe($.extname('.html'))
+    .pipe($.if(PRODUCTION, $.htmlmin({ collapseWhitespace: true })))
     .pipe(gulp.dest(PATHS.dist));
 }
 
