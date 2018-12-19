@@ -16,7 +16,7 @@ $(document).ready(() => {
   $('main').fullpage({
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['Home', 'About', 'Experience', 'Education', 'Skills'],
+    navigationTooltips: ['Home', 'About', 'Experience', 'Education', 'Skills', 'Projects'],
     sectionSelector: 'section',
     scrollOverflow: true,
   });
