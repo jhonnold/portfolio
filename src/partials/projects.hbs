@@ -2,53 +2,19 @@
   <div class="projects__container">
     <h5>Projects</h5>
     <div class="projects__tile-container">
-      <a class="projects__tile" href="https://app.builtbycoder.com" target="_blank">
-        <img src="../assets/img/coder_platform.png" />
+      {{#each projects}}
+      <a class="projects__tile" href="{{this.url}}" target="_blank">
+        <img src="{{this.imageUrl}}" />
         <span>
-          <h6>Coder Platform</h6>
+          <h6>{{this.title}}</h6>
           <ul>
-            <li>React</li>
-            <li>Redux</li>
-            <li>Foundation</li>
-            <li>Rails</li>
+            {{#each this.stack}}
+            <li>{{this}}</li>
+            {{/each}}
           </ul>
         </span>
       </a>
-      <a class="projects__tile" href="https://builtbycoder.com" target="_blank">
-        <img src="../assets/img/coder_website.png" />
-        <span>
-          <h6>Coder Website</h6>
-          <ul>
-            <li>Gulp</li>
-            <li>jQuery</li>
-            <li>Handlebars</li>
-            <li>Foundation</li>
-          </ul>
-        </span>
-      </a>
-      <a class="projects__tile" href="https://aceanatomy.com" target="_blank">
-        <img src="../assets/img/aceanatomy.png" />
-        <span>
-          <h6>AceAnatomy Website</h6>
-          <ul>
-            <li>Gulp</li>
-            <li>jQuery</li>
-            <li>Handlebars</li>
-            <li>Foundation</li>
-          </ul>
-        </span>
-      </a>
-      <a class="projects__tile">
-        <img src="../assets/img/sam_blog.jpg" />
-        <span>
-          <h6>Friends Personal Blog</h6>
-          <ul>
-            <li>Amber</li>
-            <li>Bootstrap</li>
-            <li>(Crystal-lang)</li>
-          </ul>
-        </span>
-      </a>
+      {{/each}}
     </div>
   </div>
 </section>

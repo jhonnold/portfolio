@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Coder Platform",
+    "imageUrl": "https://assets.honnold.me/coder_platform.png",
+    "url": "https://app.builtbycoder.com",
+    "stack": ["React", "Redux", "Foundation", "Rails"]
+  },
+  {
+    "title": "Coder Website",
+    "imageUrl": "https://assets.honnold.me/coder_website.png",
+    "url": "https://builtbycoder.com",
+    "stack": ["Gulp", "jQuery", "Handlebars", "Foundation"]
+  },
+  {
+    "title": "AceAnatomy Website",
+    "imageUrl": "https://assets.honnold.me/aceanatomy.png",
+    "url": "https://aceanatomy.com",
+    "stack": ["Gulp", "jQuery", "Handlebars", "Foundation"]
+  },
+  {
+    "title": "Friends Personal Blog",
+    "imageUrl": "https://assets.honnold.me/sam_blog.jpg",
+    "url": "",
+    "stack": ["Amber", "Bootstrap", "(Crystal-lang)"]
+  }
+]
