@@ -30,6 +30,8 @@
   box-sizing: border-box;
 }
 
+// This is too hide the loader, once the CSS file has loaded
+// The initial styles for loading are hardcoded intentionally
 #loader {
   display: none;
 }
