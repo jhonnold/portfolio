@@ -1,6 +1,13 @@
 [
   {
     "title": "Full-Stack Developer",
+    "company": "Allstate",
+    "start": "March 2019",
+    "end": "Present",
+    "details": "Working with Java, Spring, Node, Express, Javascript, React, Redux, and MSSQL"
+  },
+  {
+    "title": "Full-Stack Developer",
     "company": "Coder Inc.",
     "start": "June 2017",
     "end": "August 2018",
@@ -12,13 +19,6 @@
     "start": "May 2017",
     "end": "June 2017",
     "details": "Assisted with the migration to a new applicant tracking system. Evaluated 15 different ATS’ for ease- of-use, functionality, flexibility, service record, and back-end design."
-  },
-  {
-    "title": "Procurement Intern",
-    "company": "Michigan Tech",
-    "start": "February 2017",
-    "end": "May 2017",
-    "details": "Responsible for auditing all University departments to update inventory of computer equipment. Served as a technology resource for each department."
   },
   {
     "title": "Web Developer",

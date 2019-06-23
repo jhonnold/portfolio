@@ -1,5 +1,17 @@
 [
   {
+    "title": "Fortnite Tracking Website - FN Dash",
+    "imageUrl": "https://assets.honnold.me/fndash.png",
+    "url": "https://fndash.com",
+    "stack": ["Flask", "Celery", "PostgreSQL", "React", "Docker"]
+  },
+  {
+    "title": "Friends Personal Blog",
+    "imageUrl": "https://assets.honnold.me/sam_blog.jpg",
+    "url": "https://samkmiller.com",
+    "stack": ["Amber", "Crystal", "jQuery"]
+  },
+  {
     "title": "Coder Platform",
     "imageUrl": "https://assets.honnold.me/coder_platform.png",
     "url": "https://app.builtbycoder.com",
@@ -16,11 +28,5 @@
     "imageUrl": "https://assets.honnold.me/aceanatomy.png",
     "url": "https://aceanatomy.com",
     "stack": ["Gulp", "jQuery", "Handlebars", "Foundation"]
-  },
-  {
-    "title": "Friends Personal Blog",
-    "imageUrl": "https://assets.honnold.me/sam_blog.jpg",
-    "url": "",
-    "stack": ["Amber", "Bootstrap", "(Crystal-lang)"]
   }
 ]
