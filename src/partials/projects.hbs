@@ -3,16 +3,18 @@
     <h5>Projects</h5>
     <div class="projects__tile-container">
       {{#each projects}}
-      <a class="projects__tile" href="{{this.url}}" target="_blank">
-        <img src="{{this.imageUrl}}" />
-        <span>
-          <h6>{{this.title}}</h6>
-          <ul>
-            {{#each this.stack}}
-            <li>{{this}}</li>
-            {{/each}}
-          </ul>
-        </span>
+      <a href="{{this.url}}" target="_blank">
+        <div class="projects__tile">
+          <img src="{{this.imageUrl}}" />
+          <span>
+            <h6>{{this.title}}</h6>
+            <ul>
+              {{#each this.stack}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          </span>
+        </div>
       </a>
       {{/each}}
     </div>

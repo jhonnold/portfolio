@@ -1,31 +1,31 @@
 [
   {
     "title": "Fortnite Tracking Website - FN Dash",
-    "imageUrl": "https://assets.honnold.me/fndash.png",
+    "imageUrl": "https://assets.honnold.me/rsz_fndash.jpg",
     "url": "https://github.com/jhonnold/fndash",
     "stack": ["Flask", "Celery", "PostgreSQL", "React", "Docker"]
   },
   {
     "title": "Friends Personal Blog",
-    "imageUrl": "https://assets.honnold.me/sam_blog.jpg",
+    "imageUrl": "https://assets.honnold.me/rsz_sam_blog.jpg",
     "url": "https://github.com/jhonnold/sam-blog",
     "stack": ["Amber", "Crystal", "jQuery"]
   },
   {
     "title": "Coder Platform",
-    "imageUrl": "https://assets.honnold.me/coder_platform.png",
+    "imageUrl": "https://assets.honnold.me/rsz_coder_platform.jpg",
     "url": "https://github.com/Coderinc",
     "stack": ["React", "Redux", "Foundation", "Rails"]
   },
   {
     "title": "Coder Website",
-    "imageUrl": "https://assets.honnold.me/coder_website.png",
+    "imageUrl": "https://assets.honnold.me/rsz_coder_website.jpg",
     "url": "https://codernetwork.io/",
     "stack": ["Gulp", "jQuery", "Handlebars", "Foundation"]
   },
   {
     "title": "AceAnatomy Website",
-    "imageUrl": "https://assets.honnold.me/aceanatomy.png",
+    "imageUrl": "https://assets.honnold.me/rsz_aceanatomy.jpg",
     "url": "https://aceanatomy.com",
     "stack": ["Gulp", "jQuery", "Handlebars", "Foundation"]
   }
