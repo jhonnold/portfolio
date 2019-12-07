@@ -1,24 +1,22 @@
-<section class="education">
-  <div class="education__container">
+<section>
+  <div class="grid-container">
     {{#each education}}
-    <article class="school">
-      <div class="school__top">
+    <article>
+      <div class="grid-x align-justify align-middle">
         <div>
-          <h5 class="school__name">
-            {{this.school}}
-          </h5>
-          <h5 class="school__location">
-            {{this.location}}
-          </h5>
+          <h4>
+            {{this.school}} <small>{{this.location}}</small>
+          </h4>
         </div>
-        <span class="school__dates">
+        <h6>
           {{this.start}} - {{this.end}}
-        </span>
+        </h6>
       </div>
       <p>
         {{this.details}}
       </p>
     </article>
+    <br>
     {{/each}}
   </div>
 </section>

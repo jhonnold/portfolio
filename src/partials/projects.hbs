@@ -1,22 +1,18 @@
-<section class="projects">
-  <div class="projects__container">
-    <h5>Projects</h5>
-    <div class="projects__tile-container">
+<section class="text-center">
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x">
       {{#each projects}}
-      <a href="{{this.url}}" target="_blank">
-        <div class="projects__tile">
-          <img src="{{this.imageUrl}}" />
-          <span>
-            <h6>{{this.title}}</h6>
-            <ul>
-              {{#each this.stack}}
-              <li>{{this}}</li>
-              {{/each}}
-            </ul>
-          </span>
+      <div class="cell small-12 medium-6">
+        <div class="card">
+          <div class="card-section">
+            <h5>{{this.title}}</h5>
+            <span>{{this.stack}}</span>
+          </div>
+          <div class="card-image">
+            <img src="{{this.imageUrl}}" />
+          </div>
         </div>
-      </a>
+      </div>
       {{/each}}
     </div>
-  </div>
 </section>
