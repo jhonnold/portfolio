@@ -1,9 +1,9 @@
 [
   {
     "title": "Fortnite Tracking Website - FN Dash",
-    "imageUrl": "https://assets.honnold.me/rsz_fndash.jpg",
-    "url": "https://github.com/jhonnold/fndash",
-    "stack": "Flask, Celery, PostgreSQL, React, Docker"
+    "imageUrl": "https://assets.honnold.me/rsz_fndash_rewrite.jpg",
+    "url": "https://fndash.honnold.me",
+    "stack": "Originally built with Flask, Celery, PostgreSQL, React, Docker"
   },
   {
     "title": "Friends Personal Blog",
